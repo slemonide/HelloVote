@@ -1,12 +1,11 @@
-# Hello Mesh
-This is the simplest example app using the mesh framework - it shows how to discover other users 
-using the same app, send and receive data on the mesh and configure the role within the mesh 
-(forwarder or not, internet sharer or not)
+# Hello Vote
+A simple voting app for RightMesh. One of the connected phones starts a vote, others vote.
+When voting is done, master phone can end it, sending voting stats to the others.
 
 ## How does it work?
 The RightMesh library has an autonomous networking layer which manages the connectivity between 
-devices using Wi-Fi, Bluetooth and Wi-Fi direct. It does this by linking together hotspots using
-our patent-pending switching technology.
+devices using Wi-Fi, Bluetooth and Wi-Fi direct. It does this by linking together hotspots using RightMesh
+patent-pending switching technology.
 
 In addition to helping the devices make the physical connections to each other, RightMesh implements
 a neighbour discovery protocol which allows devices to discover each other across many hops.
@@ -34,7 +33,7 @@ received on the other side, even when the network grows in size, and despite the
 the devices.
 
 ## Documentation
-Our API reference is available at [https://developer.rightmesh.io/api/](https://developer.rightmesh.io/api/)
+API reference is available at [https://developer.rightmesh.io/api/](https://developer.rightmesh.io/api/)
 
 A detailed step-by-step breakdown of how to get started can be found in our reference guide: [https://developer.rightmesh.io/reference/](https://developer.rightmesh.io/reference/)
 
